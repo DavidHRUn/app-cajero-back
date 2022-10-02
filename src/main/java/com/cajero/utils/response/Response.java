@@ -9,6 +9,8 @@ import lombok.Setter;
 
 /**
  * Instantiates a new response.
+ * 
+ * @author davic
  *
  * @param successfulResponse the successful response
  * @param message            the message

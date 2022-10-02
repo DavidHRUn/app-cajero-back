@@ -2,7 +2,7 @@ package com.cajero.utils;
 
 /**
  *
- * @author Synapsist-Serv
+ * @author davic
  */
 public class Environment {
 
