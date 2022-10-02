@@ -48,10 +48,7 @@ public class DineroServiceImpl implements IDineroService {
 	@Override
 	public Response<List<Dinero>> transaccionRetirar(DineroRequest dinero) {
 		dineroDao.deleteAll();
-		for (Dinero dineroIterable : dinero.getDinero()) {
-			dineroDao.save(dineroIterable);
-		}
-
+		dineroDao.saveAll(dinero.getDinero());
 		return consultarDinero();
 	}
 
