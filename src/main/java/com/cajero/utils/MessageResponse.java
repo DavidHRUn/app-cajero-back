@@ -2,18 +2,18 @@ package com.cajero.utils;
 
 public class MessageResponse {
 
-	/** The Constant SUCCESS_CONSULTA. */
+	/** Constante SUCCESS_CONSULTA. */
 	public static final String SUCCESS_CONSULTA = "Consulta realizada exitosamente.";
 	
-	/** The Constant SUCCESS_REGISTRO. */
+	/** Constante SUCCESS_REGISTRO. */
 	public static final String SUCCESS_REGISTRO = "Registro realizado exitosamente.";
 	
-	/** The Constant SUCCESS_ELIMINACION. */
+	/** Constante SUCCESS_ELIMINACION. */
 	public static final String SUCCESS_ELIMINACION = "Eliminación exitosamente";
 
 
 	/**
-	 * Instantiates a new message response.
+	 * Instanciamiento de un nuevo MessageResponse
 	 */
 	private MessageResponse() {
 	}

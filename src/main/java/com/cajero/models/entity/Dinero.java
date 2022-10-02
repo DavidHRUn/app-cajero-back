@@ -16,55 +16,37 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 /**
- * Gets the creacion.
- *
- * @return the creacion
+ * Declaración de clase pojo del modelo Dinero
+ * 
+ * @author davic
+ * @version 0.1 02/10/2022
  */
+
 @Getter
 
-/**
- * Sets the creacion.
- *
- * @param creacion the new creacion
- */
 @Setter
 
-/**
- * To string.
- *
- * @return the java.lang. string
- */
 @Builder
 
-/**
- * Instantiates a new Dinero.
- *
- * @param id           the id
- * @param denominacion the denominación
- * @param cantidad     the cantidad
- */
 @AllArgsConstructor
 
-/**
- * Instantiates a new usuario.
- */
 @NoArgsConstructor
 
 @Entity
 @Table(name = "dinero")
 public class Dinero implements Serializable {
 
-	/** The id. */
+	/** Atributo id */
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "id_dinero")
 	private Long id;
 
-	/** The nombre. */
+	/** Atributo denominacion. */
 	@Column(name = "denominacion")
 	private String denominacion;
 
-	/** The apellido. */
+	/** Atributo cantidad. */
 	@Column(name = "cantidad")
 	private int cantidad;
 

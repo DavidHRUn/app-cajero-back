@@ -15,27 +15,13 @@ import lombok.Setter;
  * @param data               the data
  * @param error              the error
  */
+
 @AllArgsConstructor
 
-/**
- * To string.
- *
- * @return the java.lang. string
- */
 @Builder
 
-/**
- * Gets the error.
- *
- * @return the error
- */
 @Getter
 
-/**
- * Sets the error.
- *
- * @param error the new error
- */
 @Setter
 public class Response<T> implements Serializable {
 	/**
